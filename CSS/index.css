@@ -1,0 +1,300 @@
+
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+      color: rgb(37, 37, 37);
+      flex-direction: none;
+      min-height: 100vh;
+      display: flex;
+  }
+  main {
+  flex-grow: 2;
+  }
+  
+  .logo {
+      display: flex;
+      align-items: center;
+      padding-top: 10px;
+   } 
+  
+  
+  .navbar {
+      overflow: hidden;
+      text-align: center;
+      background-color:rgb(226, 222, 222);
+    } 
+  
+   .navbar a {
+      float: none;
+      display: inline-block;
+      text-align: center;
+      padding: 25px 35px;
+      text-decoration: none;
+      font-weight: bold;
+      
+    }
+  
+  
+    .navbar a:hover {
+      background-color:  rgb(243, 125, 14);;
+    }
+  
+    a:link {
+      color: black;
+      font-size: 18px;
+    
+    }
+  
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f1f1f1;
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }
+    
+    .dropdown-content a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+    
+    .dropdown a:hover {
+      background-color: rgb(243, 125, 14);
+    }
+  
+  
+  .show {
+    display: block;
+     
+  }
+      
+    .flex-boxcont {
+      display: flex;
+      justify-content: center;
+      height: 450px;
+    }
+  
+  
+  
+    .flex-text, .flex-image {
+      width: 50%;
+      height: auto;
+     }
+  
+  
+    .flex-text {
+      background-color: rgb(248, 121, 47);
+      color: white;
+      font-size: 45px;
+      font-weight: lighter;
+      padding-left: 20px;
+          
+    }
+  
+    .flex-image {
+      display: flex;
+    }
+    
+   
+   
+  .Mrow {
+    display: flex;
+    justify-content: center;
+   }
+     
+  
+      .Title {
+          font-size: 55px;
+          font-weight: bold;
+          line-height: 40px;
+          text-align: center;
+          text-transform: uppercase;
+          padding: 35px 35px 0px 35px;
+         
+      }
+  
+    .Mtext {
+        font-size: 26px; 
+        text-align: left;
+        margin: 20px;
+        padding: 35px 60px;
+        padding-bottom: 0px;
+        line-height: 1.6;
+      }
+  
+      .dot {
+          height: 10px;
+          width: 10px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          justify-content: center;
+          padding: 5px;
+        }
+       
+   
+  
+  .button {
+    background-color: rgb(248, 121, 47);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin-left: 60px;
+    width: 100px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    justify-self: center;
+   
+  }
+  
+  .button2 {
+    background-color: rgb(248, 121, 47);
+    border: none;
+    color: white;
+    box-shadow: rgb(160, 159, 159) 2px;
+    padding: 10px 20px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    justify-self: center;
+    bottom: -24px;
+    position: absolute;
+    margin:0 auto;
+    left:0;
+    right:0;
+   
+  }
+  
+  .button:hover {
+    background-color: rgb(37, 36, 36);
+    color: orange;
+  }
+  
+  .button2:hover {
+    background-color: rgb(37, 36, 36);
+    color: orange;
+  }
+  
+  
+  .Title p {
+    font-size: 16px; 
+    text-align: center;
+  }
+  
+  .box {
+      background-color: white;
+      position: relative;
+      left: 100px;
+      width: 300px;
+      height: 400px;
+      padding: 0px 20px 20px 20px;
+      margin: 0px 20px 20px 20px;
+      }
+  
+  .txtbox {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  
+  .content-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      background-color: rgb(226, 222, 222);
+      height: 550px;
+      border-top: 1px solid #adadad;
+          
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+  }
+  
+  .circle {
+    border-radius: 50%;
+    width: 45%;
+    transition: width 2s;
+  }
+  
+  .circle:hover {
+  width:55%;
+  }
+  
+  .circleimage {
+    margin: 30px 30px 0px 30px;
+    padding-left: 200px;
+  }
+  
+  .pageend {
+    background-color: rgb(248, 121, 47);
+    font-size: 30px;
+    color: white;
+    padding: 35px;
+    height: 150px;
+    
+  }
+  
+  .pageend h2 {
+    font-size:  35px;
+    
+  }
+  
+  .invite p {
+    font-size: 20px;
+    padding-bottom: 0px;
+  }
+  
+  .pageend form {
+    font-size: 16px;
+  }
+  
+  footer {
+    font-size: 12px;
+  }
+  
+  /* Media Queries: Tablet Landscape */
+  @media screen and  (max-width: 1060px) {
+    #primary { width:67%; }
+    #secondary { width:30%; margin-left:3%;}  
+  }
+  
+  /* Media Queries: Tabled Portrait */
+  @media screen and (max-width: 768px) {
+    #primary { width:100%; }
+    #secondary { width:100%; margin:0; border:none; }
+  }
+  
+  
+  
+  
+  @media (min-device-width:700px) {
+   body {
+    width: 100%;
+   }
+    }
+  
+  
+  @media (max-device-width:800px) {
+    body {
+     width: 100%;
+    }
+    }
+  
